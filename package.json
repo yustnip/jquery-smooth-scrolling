@@ -1,6 +1,6 @@
 {
   "name": "jquery-smooth-scrolling",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Smooth scrolling to page anchors",
   "main": "index.js",
   "scripts": {
