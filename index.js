@@ -7,7 +7,7 @@
       headerFixedClass: null,
     }, options)
 
-    return this.find('a[href*="#"]').not('[href="#"]').on('click', function() {
+    return this.find('a[href*="#"]').not('[href="#"]').on('click', function(event) {
       if (settings.headerClass && settings.headerFixedClass) {
         var headerSelector = '.' + settings.headerClass
         var isHeaderFixed = $(headerSelector).hasClass(settings.headerFixedClass)
